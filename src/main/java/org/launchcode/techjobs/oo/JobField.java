@@ -2,7 +2,7 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
-public class JobField {
+//public class JobField {
 
     public abstract class JobField {
         private int id;
@@ -55,4 +55,4 @@ public class JobField {
             return value;
         }
     }
-}
+//}
