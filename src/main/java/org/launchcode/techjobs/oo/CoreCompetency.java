@@ -53,7 +53,7 @@ import java.util.Objects;
     // TODO: Use the "Generate" tool to add a getter and setter for the 'value' field but
     //  ONLY a getter for the 'id' field.
     public class CoreCompetency extends JobField {
-        public CoreCompetency(String value) {
+        public CoreCompetency(String value1) {
             super(value);
         }
     }
