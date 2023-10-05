@@ -84,6 +84,7 @@ public class Job {
         }
 
         @Override
+
         public String toString() {
             String idString = "ID: " + id + "\n";
             String nameString = "Name: " + (name != null && !name.isEmpty() ? name : "Data Not Available") + "\n";
@@ -94,6 +95,36 @@ public class Job {
 
             return "\n" + idString + nameString + employerString + locationString + positionTypeString + coreCompetencyString;
         }
+
+//        public String toString() {
+//            String newline = System.lineSeparator();
+//            // System.out.println(employer.getValue());
+//
+//            if (this.name==null||name.isEmpty()) {
+//                //name=
+//                name ="Data not available";
+//            }
+//            if(this.employer.getValue()==null||employer.getValue().isEmpty()) {
+//
+//                this.employer.setValue("Data not available");
+//            }
+//            if(this.location.getValue()==null||location.getValue().isEmpty()) {
+//                this.location.setValue("Data not available");
+//            }
+//            if(this.positionType.getValue()==null||positionType.getValue().isEmpty()) {
+//                this.positionType.setValue("Data not available");
+//            }
+//            if(this.coreCompetency.getValue()==null||coreCompetency.getValue().isEmpty()){
+//                this.coreCompetency.setValue("Data not available");
+//            }
+//            return  newline + "ID: " + id +
+//                    newline + "Name: " + name +
+//                    newline + "Employer: " + employer +
+//                    newline + "Location: " + location +
+//                    newline + "Position Type: " + positionType +
+//                    newline + "Core Competency: " + coreCompetency +
+//                    newline;
+//        }
 
     }
 

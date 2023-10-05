@@ -64,12 +64,14 @@ public class JobTest {
         String expectedOutput = "\nID: 5\nName: Data Not Available\nEmployer: Data Not Available\nLocation: Data Not Available\nPosition Type: Data Not Available\nCore Competency: Data Not Available\n";
         assertEquals(expectedOutput, emptyJob.toString());
     }
+
     @Test
-    public void testSettingId() {
+    public void testSettingJobId() {
         Job job1 = new Job();
         Job job2 = new Job();
         assertNotEquals(job1.getId(), job2.getId());
     }
+
 
 
 }
